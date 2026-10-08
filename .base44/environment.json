@@ -1,0 +1,7 @@
+{
+  "previewPort": 3000,
+  "healthPath": "/",
+  "startCommand": "docker compose -f docker-compose.base44.yml up -d --build",
+  "secrets": [],
+  "notes": "No external services or credentials: the prototype is a static Vite dev server with three.js. Dependencies install from package-lock.json into a named volume at container start."
+}

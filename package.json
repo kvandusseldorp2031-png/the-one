@@ -1,0 +1,16 @@
+{
+  "name": "the-one",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Browser FPS prototype inspired by Call of Duty: Black Ops 3",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.186.1",
+    "vite": "^8.3.4"
+  }
+}
